@@ -1,0 +1,24 @@
+{
+    "id": "foundryvtt-prosemirror-extensions",
+    "title": "Prosemiror Extensions",
+    "description": "This module provides extensions to the Prosemirror edditor for FoundryVTT, such as adding a Read Aloud Text block.",
+    "version": "0.1.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10.291"
+    },
+    "esmodules": [
+        "./main.mjs"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "url": "https://github.com/nivthefox/foundryvtt-prosemirror-extensions",
+    "license": "https://github.com/nivthefox/foundryvtt-prosemirror-extensions/blob/main/LICENSE.md",
+    "readme": "https://github.com/nivthefox/foundryvtt-prosemirror-extensions/blob/main/README.md",
+    "bugs": "https://github.com/nivthefox/foundryvtt-prosemirror-extensions/issues"
+}
