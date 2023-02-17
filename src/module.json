@@ -7,9 +7,8 @@
         "minimum": "10",
         "verified": "10.291"
     },
-    "esmodules": [
-        "./main.mjs"
-    ],
+    "esmodules": ["./main.mjs"],
+    "styles": ["./styles/main.css"],
     "languages": [
         {
             "lang": "en",

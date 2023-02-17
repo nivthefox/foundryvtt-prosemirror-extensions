@@ -1,0 +1,26 @@
+/**
+ * Read Aloud Text
+ **/
+ .journal-sheet section.readaloud {
+   display: block;
+   padding: 5px 10px;
+   margin: 8px 2px;
+   background: #f7efdb;
+   border-right: 2px solid #37161a;
+   border-left: 2px solid #37161a;
+   position: relative;
+   width: calc(100% - 12px);
+ }
+ .journal-sheet section.readaloud::after, .journal-sheet section.readaloud::before {
+   content: "";
+   position: absolute;
+   height: calc(100% + 10px);
+   width: 20px;
+   top: -5px;
+   background-image: radial-gradient(circle at center, #37161a 2px, transparent 3px), radial-gradient(circle at center, #37161a 2px, transparent 3px);
+   background-size: 10px 10px;
+   background-position: top center, bottom center;
+   background-repeat: no-repeat;
+ }
+ .journal-sheet section.readaloud::before { left: -11px; }
+ .journal-sheet section.readaloud::after { right: -11px; }
